@@ -1,0 +1,1331 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20241.24.0208.0337                               -->
+<workbook original-version='18.1' source-build='2024.1.0 (20241.24.0208.0337)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='starbucks_drinks (starbucks_drinks)' inline='true' name='federated.0zxqsdk034uo5f18e07181u483wx' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='starbucks_drinks' name='excel-direct.0s41ghs0uzs52y13dkrxm034xoht'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='/Users/rakeshgoudedigi/Downloads/CLARK /bi/starbucks_drinks.xls' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.0s41ghs0uzs52y13dkrxm034xoht' name='starbucks_drinks' table='[starbucks_drinks$]' type='table'>
+          <columns gridOrigin='A1:R243:no:A1:R243:0' header='yes' outcome='2'>
+            <column datatype='string' name='Beverage_category' ordinal='0' />
+            <column datatype='string' name='Beverage' ordinal='1' />
+            <column datatype='string' name='Beverage_prep' ordinal='2' />
+            <column datatype='integer' name='Calories' ordinal='3' />
+            <column datatype='real' name='Total Fat (g)' ordinal='4' />
+            <column datatype='real' name='Trans Fat (g)' ordinal='5' />
+            <column datatype='real' name='Saturated Fat (g)' ordinal='6' />
+            <column datatype='integer' name='Sodium (mg)' ordinal='7' />
+            <column datatype='integer' name='Total Carbohydrates (g)' ordinal='8' />
+            <column datatype='integer' name='Cholesterol (mg)' ordinal='9' />
+            <column datatype='integer' name='Dietary Fibre (g)' ordinal='10' />
+            <column datatype='integer' name='Sugars (g)' ordinal='11' />
+            <column datatype='real' name='Protein (g)' ordinal='12' />
+            <column datatype='real' name='Vitamin A (% DV)' ordinal='13' />
+            <column datatype='real' name='Vitamin C (% DV)' ordinal='14' />
+            <column datatype='real' name='Calcium (% DV)' ordinal='15' />
+            <column datatype='real' name='Iron (% DV)' ordinal='16' />
+            <column datatype='string' name='Caffeine (mg)' ordinal='17' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.0s41ghs0uzs52y13dkrxm034xoht' name='starbucks_drinks' table='[starbucks_drinks$]' type='table'>
+          <columns gridOrigin='A1:R243:no:A1:R243:0' header='yes' outcome='2'>
+            <column datatype='string' name='Beverage_category' ordinal='0' />
+            <column datatype='string' name='Beverage' ordinal='1' />
+            <column datatype='string' name='Beverage_prep' ordinal='2' />
+            <column datatype='integer' name='Calories' ordinal='3' />
+            <column datatype='real' name='Total Fat (g)' ordinal='4' />
+            <column datatype='real' name='Trans Fat (g)' ordinal='5' />
+            <column datatype='real' name='Saturated Fat (g)' ordinal='6' />
+            <column datatype='integer' name='Sodium (mg)' ordinal='7' />
+            <column datatype='integer' name='Total Carbohydrates (g)' ordinal='8' />
+            <column datatype='integer' name='Cholesterol (mg)' ordinal='9' />
+            <column datatype='integer' name='Dietary Fibre (g)' ordinal='10' />
+            <column datatype='integer' name='Sugars (g)' ordinal='11' />
+            <column datatype='real' name='Protein (g)' ordinal='12' />
+            <column datatype='real' name='Vitamin A (% DV)' ordinal='13' />
+            <column datatype='real' name='Vitamin C (% DV)' ordinal='14' />
+            <column datatype='real' name='Calcium (% DV)' ordinal='15' />
+            <column datatype='real' name='Iron (% DV)' ordinal='16' />
+            <column datatype='string' name='Caffeine (mg)' ordinal='17' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[starbucks_drinks]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:R243:no:A1:R243:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Beverage_category</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Beverage_category]</local-name>
+            <parent-name>[starbucks_drinks]</parent-name>
+            <remote-alias>Beverage_category</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[starbucks!drinks_660BFBB2B9ED437AB8DF4D73909750DA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Beverage</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Beverage]</local-name>
+            <parent-name>[starbucks_drinks]</parent-name>
+            <remote-alias>Beverage</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[starbucks!drinks_660BFBB2B9ED437AB8DF4D73909750DA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Beverage_prep</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Beverage_prep]</local-name>
+            <parent-name>[starbucks_drinks]</parent-name>
+            <remote-alias>Beverage_prep</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[starbucks!drinks_660BFBB2B9ED437AB8DF4D73909750DA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Calories</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Calories]</local-name>
+            <parent-name>[starbucks_drinks]</parent-name>
+            <remote-alias>Calories</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[starbucks!drinks_660BFBB2B9ED437AB8DF4D73909750DA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Fat (g)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Total Fat (g)]</local-name>
+            <parent-name>[starbucks_drinks]</parent-name>
+            <remote-alias>Total Fat (g)</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[starbucks!drinks_660BFBB2B9ED437AB8DF4D73909750DA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Trans Fat (g)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Trans Fat (g)]</local-name>
+            <parent-name>[starbucks_drinks]</parent-name>
+            <remote-alias>Trans Fat (g)</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[starbucks!drinks_660BFBB2B9ED437AB8DF4D73909750DA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Saturated Fat (g)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Saturated Fat (g)]</local-name>
+            <parent-name>[starbucks_drinks]</parent-name>
+            <remote-alias>Saturated Fat (g)</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[starbucks!drinks_660BFBB2B9ED437AB8DF4D73909750DA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sodium (mg)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Sodium (mg)]</local-name>
+            <parent-name>[starbucks_drinks]</parent-name>
+            <remote-alias>Sodium (mg)</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[starbucks!drinks_660BFBB2B9ED437AB8DF4D73909750DA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Carbohydrates (g)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total Carbohydrates (g)]</local-name>
+            <parent-name>[starbucks_drinks]</parent-name>
+            <remote-alias>Total Carbohydrates (g)</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[starbucks!drinks_660BFBB2B9ED437AB8DF4D73909750DA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Cholesterol (mg)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Cholesterol (mg)]</local-name>
+            <parent-name>[starbucks_drinks]</parent-name>
+            <remote-alias>Cholesterol (mg)</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[starbucks!drinks_660BFBB2B9ED437AB8DF4D73909750DA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dietary Fibre (g)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Dietary Fibre (g)]</local-name>
+            <parent-name>[starbucks_drinks]</parent-name>
+            <remote-alias>Dietary Fibre (g)</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[starbucks!drinks_660BFBB2B9ED437AB8DF4D73909750DA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sugars (g)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Sugars (g)]</local-name>
+            <parent-name>[starbucks_drinks]</parent-name>
+            <remote-alias>Sugars (g)</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[starbucks!drinks_660BFBB2B9ED437AB8DF4D73909750DA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Protein (g)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Protein (g)]</local-name>
+            <parent-name>[starbucks_drinks]</parent-name>
+            <remote-alias>Protein (g)</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[starbucks!drinks_660BFBB2B9ED437AB8DF4D73909750DA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Vitamin A (% DV)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Vitamin A (% DV)]</local-name>
+            <parent-name>[starbucks_drinks]</parent-name>
+            <remote-alias>Vitamin A (% DV)</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[starbucks!drinks_660BFBB2B9ED437AB8DF4D73909750DA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Vitamin C (% DV)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Vitamin C (% DV)]</local-name>
+            <parent-name>[starbucks_drinks]</parent-name>
+            <remote-alias>Vitamin C (% DV)</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[starbucks!drinks_660BFBB2B9ED437AB8DF4D73909750DA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Calcium (% DV)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Calcium (% DV)]</local-name>
+            <parent-name>[starbucks_drinks]</parent-name>
+            <remote-alias>Calcium (% DV)</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[starbucks!drinks_660BFBB2B9ED437AB8DF4D73909750DA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Iron (% DV)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Iron (% DV)]</local-name>
+            <parent-name>[starbucks_drinks]</parent-name>
+            <remote-alias>Iron (% DV)</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[starbucks!drinks_660BFBB2B9ED437AB8DF4D73909750DA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Caffeine (mg)</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Caffeine (mg)]</local-name>
+            <parent-name>[starbucks_drinks]</parent-name>
+            <remote-alias>Caffeine (mg)</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[starbucks!drinks_660BFBB2B9ED437AB8DF4D73909750DA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Beverage category' datatype='string' name='[Beverage_category]' role='dimension' type='nominal' />
+      <column caption='Beverage prep' datatype='string' name='[Beverage_prep]' role='dimension' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='starbucks_drinks' datatype='table' name='[__tableau_internal_object_id__].[starbucks!drinks_660BFBB2B9ED437AB8DF4D73909750DA]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='starbucks_drinks' id='starbucks!drinks_660BFBB2B9ED437AB8DF4D73909750DA'>
+            <properties context=''>
+              <relation connection='excel-direct.0s41ghs0uzs52y13dkrxm034xoht' name='starbucks_drinks' table='[starbucks_drinks$]' type='table'>
+                <columns gridOrigin='A1:R243:no:A1:R243:0' header='yes' outcome='2'>
+                  <column datatype='string' name='Beverage_category' ordinal='0' />
+                  <column datatype='string' name='Beverage' ordinal='1' />
+                  <column datatype='string' name='Beverage_prep' ordinal='2' />
+                  <column datatype='integer' name='Calories' ordinal='3' />
+                  <column datatype='real' name='Total Fat (g)' ordinal='4' />
+                  <column datatype='real' name='Trans Fat (g)' ordinal='5' />
+                  <column datatype='real' name='Saturated Fat (g)' ordinal='6' />
+                  <column datatype='integer' name='Sodium (mg)' ordinal='7' />
+                  <column datatype='integer' name='Total Carbohydrates (g)' ordinal='8' />
+                  <column datatype='integer' name='Cholesterol (mg)' ordinal='9' />
+                  <column datatype='integer' name='Dietary Fibre (g)' ordinal='10' />
+                  <column datatype='integer' name='Sugars (g)' ordinal='11' />
+                  <column datatype='real' name='Protein (g)' ordinal='12' />
+                  <column datatype='real' name='Vitamin A (% DV)' ordinal='13' />
+                  <column datatype='real' name='Vitamin C (% DV)' ordinal='14' />
+                  <column datatype='real' name='Calcium (% DV)' ordinal='15' />
+                  <column datatype='real' name='Iron (% DV)' ordinal='16' />
+                  <column datatype='string' name='Caffeine (mg)' ordinal='17' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='starbucks_drinks' inline='true' name='federated.1uczobm02wuqlj1byo6o201tskfy' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='starbucks_drinks' name='textscan.1qswrnq1fxcg6g1a4pewi1pr8nmf'>
+            <connection class='textscan' directory='/Users/rakeshgoudedigi/Downloads/CLARK /bi' filename='starbucks_drinks.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1qswrnq1fxcg6g1a4pewi1pr8nmf' name='starbucks_drinks.csv' table='[starbucks_drinks#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='Beverage_category' ordinal='0' />
+            <column datatype='string' name='Beverage' ordinal='1' />
+            <column datatype='string' name='Beverage_prep' ordinal='2' />
+            <column datatype='integer' name='Calories' ordinal='3' />
+            <column datatype='real' name='Total Fat (g)' ordinal='4' />
+            <column datatype='real' name='Trans Fat (g) ' ordinal='5' />
+            <column datatype='real' name='Saturated Fat (g)' ordinal='6' />
+            <column datatype='integer' name='Sodium (mg)' ordinal='7' />
+            <column datatype='integer' name='Total Carbohydrates (g) ' ordinal='8' />
+            <column datatype='integer' name='Cholesterol (mg)' ordinal='9' />
+            <column datatype='integer' name='Dietary Fibre (g)' ordinal='10' />
+            <column datatype='integer' name='Sugars (g)' ordinal='11' />
+            <column datatype='real' name='Protein (g) ' ordinal='12' />
+            <column datatype='real' name='Vitamin A (% DV) ' ordinal='13' />
+            <column datatype='real' name='Vitamin C (% DV)' ordinal='14' />
+            <column datatype='real' name='Calcium (% DV) ' ordinal='15' />
+            <column datatype='real' name='Iron (% DV) ' ordinal='16' />
+            <column datatype='string' name='Caffeine (mg)' ordinal='17' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1qswrnq1fxcg6g1a4pewi1pr8nmf' name='starbucks_drinks.csv' table='[starbucks_drinks#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='Beverage_category' ordinal='0' />
+            <column datatype='string' name='Beverage' ordinal='1' />
+            <column datatype='string' name='Beverage_prep' ordinal='2' />
+            <column datatype='integer' name='Calories' ordinal='3' />
+            <column datatype='real' name='Total Fat (g)' ordinal='4' />
+            <column datatype='real' name='Trans Fat (g) ' ordinal='5' />
+            <column datatype='real' name='Saturated Fat (g)' ordinal='6' />
+            <column datatype='integer' name='Sodium (mg)' ordinal='7' />
+            <column datatype='integer' name='Total Carbohydrates (g) ' ordinal='8' />
+            <column datatype='integer' name='Cholesterol (mg)' ordinal='9' />
+            <column datatype='integer' name='Dietary Fibre (g)' ordinal='10' />
+            <column datatype='integer' name='Sugars (g)' ordinal='11' />
+            <column datatype='real' name='Protein (g) ' ordinal='12' />
+            <column datatype='real' name='Vitamin A (% DV) ' ordinal='13' />
+            <column datatype='real' name='Vitamin C (% DV)' ordinal='14' />
+            <column datatype='real' name='Calcium (% DV) ' ordinal='15' />
+            <column datatype='real' name='Iron (% DV) ' ordinal='16' />
+            <column datatype='string' name='Caffeine (mg)' ordinal='17' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[starbucks_drinks.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Beverage_category</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Beverage_category]</local-name>
+            <parent-name>[starbucks_drinks.csv]</parent-name>
+            <remote-alias>Beverage_category</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[starbucks_drinks.csv_34FCD3774E714871AE80EC941D9C6DDC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Beverage</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Beverage]</local-name>
+            <parent-name>[starbucks_drinks.csv]</parent-name>
+            <remote-alias>Beverage</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[starbucks_drinks.csv_34FCD3774E714871AE80EC941D9C6DDC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Beverage_prep</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Beverage_prep]</local-name>
+            <parent-name>[starbucks_drinks.csv]</parent-name>
+            <remote-alias>Beverage_prep</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[starbucks_drinks.csv_34FCD3774E714871AE80EC941D9C6DDC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Calories</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Calories]</local-name>
+            <parent-name>[starbucks_drinks.csv]</parent-name>
+            <remote-alias>Calories</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[starbucks_drinks.csv_34FCD3774E714871AE80EC941D9C6DDC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Fat (g)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Total Fat (g)]</local-name>
+            <parent-name>[starbucks_drinks.csv]</parent-name>
+            <remote-alias>Total Fat (g)</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[starbucks_drinks.csv_34FCD3774E714871AE80EC941D9C6DDC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Trans Fat (g) </remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Trans Fat (g) ]</local-name>
+            <parent-name>[starbucks_drinks.csv]</parent-name>
+            <remote-alias>Trans Fat (g) </remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[starbucks_drinks.csv_34FCD3774E714871AE80EC941D9C6DDC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Saturated Fat (g)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Saturated Fat (g)]</local-name>
+            <parent-name>[starbucks_drinks.csv]</parent-name>
+            <remote-alias>Saturated Fat (g)</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[starbucks_drinks.csv_34FCD3774E714871AE80EC941D9C6DDC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sodium (mg)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Sodium (mg)]</local-name>
+            <parent-name>[starbucks_drinks.csv]</parent-name>
+            <remote-alias>Sodium (mg)</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[starbucks_drinks.csv_34FCD3774E714871AE80EC941D9C6DDC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Carbohydrates (g) </remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total Carbohydrates (g) ]</local-name>
+            <parent-name>[starbucks_drinks.csv]</parent-name>
+            <remote-alias>Total Carbohydrates (g) </remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[starbucks_drinks.csv_34FCD3774E714871AE80EC941D9C6DDC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Cholesterol (mg)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Cholesterol (mg)]</local-name>
+            <parent-name>[starbucks_drinks.csv]</parent-name>
+            <remote-alias>Cholesterol (mg)</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[starbucks_drinks.csv_34FCD3774E714871AE80EC941D9C6DDC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dietary Fibre (g)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Dietary Fibre (g)]</local-name>
+            <parent-name>[starbucks_drinks.csv]</parent-name>
+            <remote-alias>Dietary Fibre (g)</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[starbucks_drinks.csv_34FCD3774E714871AE80EC941D9C6DDC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sugars (g)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Sugars (g)]</local-name>
+            <parent-name>[starbucks_drinks.csv]</parent-name>
+            <remote-alias>Sugars (g)</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[starbucks_drinks.csv_34FCD3774E714871AE80EC941D9C6DDC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Protein (g) </remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Protein (g) ]</local-name>
+            <parent-name>[starbucks_drinks.csv]</parent-name>
+            <remote-alias>Protein (g) </remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[starbucks_drinks.csv_34FCD3774E714871AE80EC941D9C6DDC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Vitamin A (% DV) </remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Vitamin A (% DV) ]</local-name>
+            <parent-name>[starbucks_drinks.csv]</parent-name>
+            <remote-alias>Vitamin A (% DV) </remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[starbucks_drinks.csv_34FCD3774E714871AE80EC941D9C6DDC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Vitamin C (% DV)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Vitamin C (% DV)]</local-name>
+            <parent-name>[starbucks_drinks.csv]</parent-name>
+            <remote-alias>Vitamin C (% DV)</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[starbucks_drinks.csv_34FCD3774E714871AE80EC941D9C6DDC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Calcium (% DV) </remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Calcium (% DV) ]</local-name>
+            <parent-name>[starbucks_drinks.csv]</parent-name>
+            <remote-alias>Calcium (% DV) </remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[starbucks_drinks.csv_34FCD3774E714871AE80EC941D9C6DDC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Iron (% DV) </remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Iron (% DV) ]</local-name>
+            <parent-name>[starbucks_drinks.csv]</parent-name>
+            <remote-alias>Iron (% DV) </remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[starbucks_drinks.csv_34FCD3774E714871AE80EC941D9C6DDC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Caffeine (mg)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Caffeine (mg)]</local-name>
+            <parent-name>[starbucks_drinks.csv]</parent-name>
+            <remote-alias>Caffeine (mg)</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[starbucks_drinks.csv_34FCD3774E714871AE80EC941D9C6DDC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Beverage category' datatype='string' name='[Beverage_category]' role='dimension' type='nominal' />
+      <column caption='Beverage prep' datatype='string' name='[Beverage_prep]' role='dimension' type='nominal' />
+      <column caption='Calcium (% DV)' datatype='real' name='[Calcium (% DV) ]' role='measure' type='quantitative' />
+      <column caption='Iron (% DV)' datatype='real' name='[Iron (% DV) ]' role='measure' type='quantitative' />
+      <column caption='Protein (g)' datatype='real' name='[Protein (g) ]' role='measure' type='quantitative' />
+      <column caption='Total Carbohydrates (g)' datatype='integer' name='[Total Carbohydrates (g) ]' role='measure' type='quantitative' />
+      <column caption='Trans Fat (g)' datatype='real' name='[Trans Fat (g) ]' role='measure' type='quantitative' />
+      <column caption='Vitamin A (% DV)' datatype='real' name='[Vitamin A (% DV) ]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='starbucks_drinks.csv' datatype='table' name='[__tableau_internal_object_id__].[starbucks_drinks.csv_34FCD3774E714871AE80EC941D9C6DDC]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='starbucks_drinks.csv' id='starbucks_drinks.csv_34FCD3774E714871AE80EC941D9C6DDC'>
+            <properties context=''>
+              <relation connection='textscan.1qswrnq1fxcg6g1a4pewi1pr8nmf' name='starbucks_drinks.csv' table='[starbucks_drinks#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='string' name='Beverage_category' ordinal='0' />
+                  <column datatype='string' name='Beverage' ordinal='1' />
+                  <column datatype='string' name='Beverage_prep' ordinal='2' />
+                  <column datatype='integer' name='Calories' ordinal='3' />
+                  <column datatype='real' name='Total Fat (g)' ordinal='4' />
+                  <column datatype='real' name='Trans Fat (g) ' ordinal='5' />
+                  <column datatype='real' name='Saturated Fat (g)' ordinal='6' />
+                  <column datatype='integer' name='Sodium (mg)' ordinal='7' />
+                  <column datatype='integer' name='Total Carbohydrates (g) ' ordinal='8' />
+                  <column datatype='integer' name='Cholesterol (mg)' ordinal='9' />
+                  <column datatype='integer' name='Dietary Fibre (g)' ordinal='10' />
+                  <column datatype='integer' name='Sugars (g)' ordinal='11' />
+                  <column datatype='real' name='Protein (g) ' ordinal='12' />
+                  <column datatype='real' name='Vitamin A (% DV) ' ordinal='13' />
+                  <column datatype='real' name='Vitamin C (% DV)' ordinal='14' />
+                  <column datatype='real' name='Calcium (% DV) ' ordinal='15' />
+                  <column datatype='real' name='Iron (% DV) ' ordinal='16' />
+                  <column datatype='string' name='Caffeine (mg)' ordinal='17' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontcolor='#000000' fontname='Benton Sans SemiDemi' fontsize='20'>Starbucks Beverage % of Sugar Breakdown</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='starbucks_drinks' name='federated.1uczobm02wuqlj1byo6o201tskfy' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1uczobm02wuqlj1byo6o201tskfy'>
+            <column caption='Beverage category' datatype='string' name='[Beverage_category]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Sugars (g)]' role='measure' type='quantitative' />
+            <column-instance column='[Beverage_category]' derivation='None' name='[none:Beverage_category:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Sugars (g)]' derivation='Sum' name='[pcto:sum:Sugars (g):qk:2]' pivot='key' type='quantitative'>
+              <table-calc ordering-field='[federated.1uczobm02wuqlj1byo6o201tskfy].[none:Beverage_category:nk]' ordering-type='Field' type='PctTotal' />
+            </column-instance>
+          </datasource-dependencies>
+          <manual-sort column='[federated.1uczobm02wuqlj1byo6o201tskfy].[none:Beverage_category:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;Frappuccino® Blended Coffee&quot;</bucket>
+              <bucket>&quot;Tazo® Tea Drinks&quot;</bucket>
+              <bucket>&quot;Signature Espresso Drinks&quot;</bucket>
+              <bucket>&quot;Classic Espresso Drinks&quot;</bucket>
+              <bucket>&quot;Frappuccino® Blended Crème&quot;</bucket>
+              <bucket>&quot;Shaken Iced Beverages&quot;</bucket>
+              <bucket>&quot;Frappuccino® Light Blended Coffee&quot;</bucket>
+              <bucket>&quot;Smoothies&quot;</bucket>
+              <bucket>&quot;Coffee&quot;</bucket>
+              <bucket>%all%</bucket>
+            </dictionary>
+          </manual-sort>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.1uczobm02wuqlj1byo6o201tskfy].[none:Beverage_category:nk]' value='104' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='auto' />
+                <format attr='font-size' value='12' />
+                <format attr='font-weight' value='bold' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1uczobm02wuqlj1byo6o201tskfy].[pcto:sum:Sugars (g):qk:2]</rows>
+        <cols>[federated.1uczobm02wuqlj1byo6o201tskfy].[none:Beverage_category:nk]</cols>
+      </table>
+      <simple-id uuid='{0142CA8E-967C-4C22-9471-8077B61E6276}' />
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{6172F46A-8F3A-4909-AFBC-EE157866BEF2}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='51'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1uczobm02wuqlj1byo6o201tskfy].[none:Beverage:nk]</field>
+            <field>[federated.1uczobm02wuqlj1byo6o201tskfy].[none:Beverage_category:nk]</field>
+            <field>[federated.1uczobm02wuqlj1byo6o201tskfy].[none:Caffeine (mg):nk]</field>
+            <field>[federated.1uczobm02wuqlj1byo6o201tskfy].[pcto:sum:Sugars (g):qk:2]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{B41232E3-E40D-401C-8794-8C8924E411BE}' />
+    </window>
+    <window class='worksheet' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1uczobm02wuqlj1byo6o201tskfy].[none:Beverage_category:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{4394D552-B262-4A79-AFD7-10BEFE19CAB0}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='384' name='Sheet 1' width='384'>
+      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
+      9RIAzZs355prrjljeKtWrc4YNnDgwPDv3zxsXUREap/OrxQRMSkFgIiISSkARERMSgEgImJS
+      CgAREZNSAIiImJQCQETEpBQAIiImpQAQETEpBYCIiEkpAERETEoBICJiUgoAERGTUgCIiJiU
+      AkBExKQUACIiJqUAEBExKQWAiIhJKQBERExKASAiYlIKABERk1IAiIiYlAJARMSkFAAiIial
+      ABARMSkFgIiISSkARERMSgEgImJSCgAREZNSAIiImJQCQETEpBQAIiImpQAQETEpBYCIiEkp
+      AERETEoBICJiUgoAERGTUgCIiJiUAkBExKQUACIiJqUAEBExKQWAiIhJKQBERExKASAiYlIK
+      ABERk1IAiIiYlAJAwgzDwOv1YhjGacMrKyspKSk5Y/g34wSDwTN+vv1ev99PUVER1dXV4WFe
+      rxev13vatPx+P6FQqJbnSkS+jwJAADhy5Ah//OMf+eUvf3nahnratGn06tWLnj17ctttt1FZ
+      WXnaeDk5OfTr149evXqFf3r37o3f78cwDJYuXcrAgQPp2bMn/fv3Jycnh/Xr13PhhRcyfPhw
+      1q9fD0BpaSnjxo3jxIkT9TrfImZmb+gCpOEdPHiQIUOGEBUVRSAQCO+97969mwceeID333+f
+      pKQkrr/+el599VV+//vfh8dt1qwZzzzzTHjP/ZVXXiEvLw+bzUZBQQFXX301Dz74IOPHj2f/
+      /v14PB5+//vfc/vttxMKhXjyySf5+OOPefHFF7nwwgtJSkpqkGUgYkYKAMHj8fDWW2/h9/u5
+      4447wsO3bdtGhw4dGD16NBaLhbvuuosPP/zwtADweDxcfPHFAJw8eZINGzbwwgsvYLPZ+Oij
+      j0hPT+f222+nrKyMkSNHYrPZyMvLo1evXgQCAaZOncqBAwdYtWoVc+bMwWKx1Pv8i5iVuoCE
+      xMREhg8fjs1mO21427Zt2bt3L4sWLSInJ4fKykoOHTr0nccCAKZPn058fDyXXnopAPv37yc7
+      O5tu3bqRmZnJqFGjOHLkCL179+a1117j9ddfp2fPnjz//PP86le/4qqrrmLcuHF8/fXXdT7P
+      IqIAkB/Qr18/7rnnHm6++WYuvvhipk2bhsfj+c73lpWV8dJLL3HffffhdrsBCAQC9OzZk8WL
+      F7NixQqqqqp4+eWXmTJlCoZhYLVaGTFiBC6Xi7lz5zJixAgGDx7Mo48+Wp+z+Z0CgQBLly6l
+      oKAgPMwwDFatWsUrr7zC8uXLvzMIKyoqWLZsGW+88QZz586luLj4tPH37t3La6+9xttvv01e
+      Xh4AO3fu5N133+XYsWPh9+7fv5+dO3fW4RyKKADkB1itVp544gl27drFli1buPrqq+ncufN3
+      dtN88MEHWK1WrrrqqvCwdu3aUV5eTrt27Wjfvj2jRo0iNzeX5ORkXnjhBR5//HGmTp3Kvffe
+      y+7du7n00ksZN24ce/furc/ZPI1hGHzxxRdcdNFFjBo1it27d4dfe+6555g4cSJLlizhiiuu
+      4Nlnnz1j/EceeYTf/e53zJ49mz/+8Y8MHTqU0tJSAD755BMuuOACZs+ezZtvvsm0adPYs2cP
+      V155JYsWLeLKK6+ksrISn8/H5MmTKSsrq7f5FnOql2MAfr+fJUuWUFxcTCgU4rLLLsPpdDJ/
+      /nyqqqro1q0bGRkZrFixgmPHjjFkyBCaNWvGF198waBBg3A6nfVRpml9/fXXbN++nR07dlBe
+      Xs6nn35Kq1at6NevH08++SRDhgwhKyuLf/zjH3zwwQf4fD5uu+02Ro4cyTXXXENVVRUvvvgi
+      d99992kthKuuuorHH3+cJ554gn79+vH+++9z7733hl//61//ytixY0lJSaFjx458+umn+P1+
+      Onbs2BCLIez555/noosuYt++feFhwWCQ5557jtdff51Ro0Yxf/58Jk+ezK233kpsbGz4fX/4
+      wx/461//itvtpqioiHbt2rF792769OnD/fffzxNPPMHtt9+OYRj4fD5ee+01xo4dy3/913/R
+      q1cvcnNzWbt2LQMGDGDAgAENMftiIvUSAJWVlaSnp9OyZUuys7PZtm0bdrudtm3b0q1bNz78
+      8EOaN29ORUUFY8aMYcWKFXTr1g2Hw4HD4aiPEk3tm24JgN69e/PWW2+RmZlJv3792L9/Px98
+      8AEJCQm88sorXHTRRQQCARwOB3b7qdXnq6++IiMjg0mTJp3WOkhJSWHu3Lk89thjfPTRR0yc
+      OJHJkycDcPToUQoKCnj44YexWCw89dRT/P73v8disfDSSy/V/0L4lpkzZwKnjml8w+fzUVFR
+      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
+      3W569uzJ448/jtfrJTMzk+uuu+4HH9IuIuefgoIC+vfvT0JCAkVFReFuX5/Px9SpU/mP//gP
+      +vTpwz/+8Q/uu+8+tmzZEh43GAzSqlUr3nvvPRITE3n11Ve5//772bhxIy6XC8MwuP/++0lN
+      TWXPnj0A/Od//ie33norycnJ4VvNT506lQEDBnznBahybmq0xTYMg1deeYUHHniAmJgY3n//
+      fVavXs3QoUNruz4RaUARERG8++67OJ1OJk6cGB7udDpZvHgxMTExALRu3Rqfz3fGuA888AAA
+      gUCAmJgYPB5PuAtp/vz5ZGdn88wzz3D77bdjGAb5+fl069aNxMREiouLOXToEEuWLGHGjBmn
+      dT1J7ajxLnswGCQuLo7IyEhiY2Pxer21WZeI/AxER0czdOhQNmzYcNpwq9VKTEwMPp+PF198
+      kSeffJJXX331jPFPnDjBnXfeGb5OaObMmTidTiorK3nggQf429/+hsvlAv73TsNTp04lPj6e
+      Hj168Pe//51rrrmGq6++mqqqKl566SW6detW9zNuEjW+DuC6667jwQcf5M477+TQoUPa+xcx
+      maKiIiZMmMDUqVOZM2cOV1111RnvcbvdjB49mvHjxxMKhXjzzTcJBoO8+OKLJCQkkJ6eTn5+
+      PsFgkNzcXB555BFatGiB1WplwoQJVFdXs2zZMoYOHco111zDI488ctoxBDk3Z90COHLkCMXF
+      xQwcOJC+ffsSDAZxOp1YrbqztIiZ3H777RQXF7NmzRoSExO/s4smKiqKm266CYAJEyYwePBg
+      7rvvPhYuXMjhw4cZOXIkVVVVHDt2jIkTJ7J69WqmTJlCeXk5V155JVOnTuW6667jrrvuIiYm
+      hr///e+EQiGdDVRLzjoADh48SHZ2Nl26dMHhcJxxWpeINB4HDhxg3bp15OTkUFFRwezZs0lN
+      TaVjx458+umn3HLLLcyePRsAu93Or371K373u9/Rv39/Bg0axBNPPMH48eNJTEzkww8/pFmz
+      Zng8HhYtWhTek1+2bBm33norX375Zfhzn3vuOYYOHUpqairp6enMnTuX2NhY2rVrp53NWlSj
+      YwDvv/8+CxcuPG3Ygw8+qMdCijQyhw4dYtasWcCpO/7Onz+fjh07kpaWxrhx48jLyyMvLw84
+      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
+      fDxer5fi4mKaNWuG1WqlrKyMyMhIbDZbQ5UpItJoNVgL4OTJk8yZM4fdu3eTlZWFz+dj3rx5
+      7N69m82bNxMIBPjss88aqjwRkUavwVoABQUF9O7dm8zMTKxWK6WlpSQmJjJ06FAWLVrEhg0b
+      GDRoEFbr92dUKBT6gU8war/oBmIYxo/M60+ZSO3U8nNgGD/2v//RKdRaLQ3t3JfFvyfSSNTK
+      d6Wx+AnrRoMFAEBWVhZZWVm0aNGCgQMHcvLkSZYtW0ZMTAwVFRWsX78egEsvvRS73Y7P5wuP
+      GwqFsFgs3zttvz9Q5/XXl2AweNq812gaoWAtVdPw/D4fPl/NV12tG/9nGo1og+n3+895eTSW
+      PDQwfnRZNFgApKenk56eTigUYs6cOZSUlDBu3DhKSkrYunUrSUlJNG/enFAoxP79+0lPT8fl
+      coXHDwQC2O3fX77D4aiP2agXdrsdt9t9TtNoTMdRnC7nOS2PxrVu2LRufIvTeW7rBsAP7Fee
+      VywWy48uiwY7BrB3716OHj1KWVkZXq8Xp9NJREQExcXFJCcn06RJE8rKyigtLT3nf6iIiJyp
+      wVoASUlJbN68merqavr3709MTAwA1dXVdO/eHYvFQn5+PgBt2rRpqDJFRBqtBguAhIQERo4c
+      ecbwHj16hH8fMmRIfZYkImIquhBMRMSkFAAiIialABARMSkFgIiISSkARERMSgEgImJSCgAR
+      EZNSAIiImJQCQETEpBQAIiImpQAQETEpBYCIiEkpAERETEoBICJiUgoAERGTUgCIiJiUAkBE
+      xKQUACIiJqUAEBExKQWAiIhJKQBERExKASAiYlIKABERk1IAiIiYlAJARMSkFAAiIialABAR
+      MSkFgIiISSkARERMSgEgImJSCgAREZNSAIiImJQCQETEpBQAIiImpQAQETEpBYCIiEkpAERE
+      TEoBICJiUgoAERGTUgCIiJiUAkBExKQUACIiJqUAEBExKQWAiIhJKQBERExKASAiYlIKABER
+      k2qwADAMg127drF48WKKi4sBOHToEMuXL6e6uhqAnJwc/H5/Q5UoItKoNVgAZGdnk52dTbdu
+      3Zg3bx5VVVVs2LCBli1bsmbNGioqKti+fTt2u72hShQRadQaLACysrIYPHgwKSkpJCcnk5+f
+      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
+      REQEx44dIyIignnz5hERERHeiJaWllJdXc3MmTOJiYlh6dKl9OjRgy1btpCTk4PP52PHjh20
+      aNGC4uLi8AYvMTHxrALgmzMcDh8+TGxsLHFxcfh8PtauXYvVauVf//oXmZmZ5OTkUFBQwIIF
+      C8jMzGTevHk4HA527twZ/lJGR0eHl1tqamp42idOnACgefPmVFdXM3v2bOLj41m2bBmdO3dm
+      z549lJSUkJWVRVlZWTgEDhw4QNOmTYmLiyMlJYXNmzfTokULZs6cSVZWFs2aNWPVqlV07dqV
+      JUuWsHfvXmw2G+vWrSMjI4Pdu3fTqVMn5syZQ6tWrfj444+Jiori66+/Ji0trdY2lKWlpWzd
+      upXk5GSSkpKwWq0sWrSIDh06sH//fpYvX05UVFR4nXnjjTewWCwcPHgwvCHNysqiqqqK9evX
+      06pVKzZu3Bje+G/evJlWrVphtVpZsGAB6enpzJgxg927dxMREcG+ffs4efIkR48epaSk5LQQ
+      PVfBYJAtW7YwbNgwrFYrTqeT6upqcnNz6dChAytWrMBisbB48WI6d+7MZ599hmEY5Ofnk5SU
+      xJIlS6iqqgpvgLdt20ZkZCTFxcUsWrQIl8tFdXU1CQkJAOzcuZO4uDi8Xi+hUIiSkhIWLVpE
+      ZGQkhYWFOJ1O3n//fZKTk1m2bBlt27Zl69atrFmzhhMnTuDxePjiiy9o0qQJK1eupEuXLrz9
+      9ts0adKEAwcOkJKSwocffkhMTAyHDx+mZcuWfPTRR7hcLrZv347D4QjXcjYKCgqwWCzhuxIU
+      FBQwe/Zsvv76a1JTU9mzZw8+n4/169cTHR3NgQMH2LBhAx6Ph88//5wePXowe/ZsvF4vJSUl
+      7N27l8TERDZt2kTbtm1Zu3YtkZGR7Nq1i6ysLLxeL1FRUSxYsCC8M9myZUuWLFlC586deeut
+      t/B6vRQWFnLs2DGSkpKYOXMm8fHxLFmyhI4dO5KXl0dMTAxWqxWbzUarVq1+dD4bfQugvLyc
+      mTNnAjBw4ECqq6u54IILaNOmTbib5dixYxQXFxMMBomPj+eCCy7A7/czb948unbtSqdOnejT
+      pw9NmzZl37594dMu4VS/W15eHu3ataN///7AqW6Miy++OPzF3bFjR/hCtt69e9O/f3+Kiorw
+      +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
+      AElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='384' name='Sheet 2' width='384'>
+      iVBORw0KGgoAAAANSUhEUgAAAYAAAAGACAYAAACkx7W/AAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAAFXUlEQVR4nO3VMQEAIAzAMMC/5yFjRxMF/XpnZg4AOW87AIAdBgAQZQAAUQYAEGUAAFEG
+      ABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAA
+      UQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBl
+      AABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYA
+      EGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABR
+      BgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUA
+      AFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQ
+      ZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEG
+      ABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAA
+      UQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBl
+      AABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYA
+      EGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABR
+      BgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUA
+      AFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQ
+      ZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEG
+      ABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAA
+      UQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBl
+      AABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYA
+      EGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABR
+      BgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUA
+      AFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQ
+      ZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEG
+      ABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAA
+      UQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBl
+      AABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYA
+      EGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEfFxoG/IiMv0YAAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
